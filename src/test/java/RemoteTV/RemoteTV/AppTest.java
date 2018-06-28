@@ -2,15 +2,16 @@ package RemoteTV.RemoteTV;
 
 
 import static org.junit.Assert.assertEquals;
-/*Taken from codewars.com*/
+
 public class AppTest{
 
-
+/*Providing some tests*/
  public static void main(String... args){
 	 new AppTest().lower();
 	 new AppTest().upper();
 	 new AppTest().mixed();
 	 System.out.println("Test finished with no errors");
+	 
  }
   
  // @Test
@@ -38,7 +39,6 @@ public class AppTest{
  // @Test
   public void mixed() {
     assertEquals(40,  RemoteTV.tvRemote("Does"));
-    System.out.println(RemoteTV.tvRemote("Does"));
     assertEquals(37,  RemoteTV.tvRemote("Your"));
     assertEquals(49,  RemoteTV.tvRemote("Solution"));
     assertEquals(30,  RemoteTV.tvRemote("Work"));
